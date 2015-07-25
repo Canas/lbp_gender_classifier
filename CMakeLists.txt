@@ -6,9 +6,9 @@ find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 include_directories( src )
 
-#set(HEADER_FILES )
-set(SOURCES src/main.cpp)
+set(HEADER_FILES src/LBP.h)
+set(SOURCES src/main.cpp src/LBP.cpp)
 
-add_executable( gender_classifier ${SOURCES}) #${HEAD_FILES})
+add_executable( gender_classifier ${SOURCES} ${HEADER_FILES})
 
 target_link_libraries( gender_classifier ${OpenCV_LIBS} )
