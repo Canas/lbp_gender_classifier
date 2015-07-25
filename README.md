@@ -4,7 +4,7 @@ This code implements a Gender Classification algorithm using LBP features in C++
 
 Notes
 -----
-- The code is intended for use with the data available here (www.cec.uchile.cl/~crsilva/projects/gender_classifier/preprocessed.tar.gz). This data contains samples of the Yale Face Database B (10 subjects, 1 pose, 64 illumination conditions).
+- The code is intended for use with the data available here (www.cec.uchile.cl/~crsilva/projects/gender_classifier/preprocessed.tar.gz).
 - The LBP algorithm used is LBP(8,1,u2) and is described in the references.
 
 Instructions
