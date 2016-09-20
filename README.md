@@ -4,7 +4,7 @@ This code implements a Gender Classification algorithm using LBP features in C++
 
 Notes
 -----
-- The code is intended for use with the data available here (www.cec.uchile.cl/~crsilva/projects/gender_classifier/preprocessed.tar.gz).
+- The code is intended for use with the images inside the data folder.
 - The LBP algorithm used is LBP(8,1,u2) and is described in the references.
 
 Instructions
